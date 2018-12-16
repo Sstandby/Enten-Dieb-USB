@@ -31,7 +31,7 @@ Cuando se elije alguna de estas opciones el .bat se generara con el vbs para eje
 
 2. Serán copiados los archivos con extensiones por defecto en el bat con las cookies, contraseñas almacenadas del wifi al igual de las claves de los navegadores. Cuando todo sea copiado se generará otro bat el cual será el ftp configurado para subir todo al servidor. 
 
-3. Cambiara la password y contraseña del ADMIN automáticamente con la contraseña y usuario por defecto. 
+3. Cambiara la password y contraseña del ADMIN automáticamente con la contraseña y usuario por defecto del bat. 
 
 4. Generara un menu extra para ocultar los archivos y desocultarlos.  
 
@@ -42,3 +42,20 @@ Cuando se elije alguna de estas opciones el .bat se generara con el vbs para eje
 7. Salir del menú.
 
 ![enter image description here](http://subirimagen.me/uploads/20181216111650.gif)
+
+-----
+
+# ¿Existe alguna forma en Windows 7 para usar autorun en una unidad flash USB?
+ 
+No existe una forma general para correr un programa automáticamente en una unidad flash USB en el sistema Windows 7, o agregar una opción a la caja de diálogo de AutoPlay; pero en algunas circunstancias una de las siguientes técnicas puede utilizarse:
+ 
+*- Utiliza una U3 smart drive (o similar). Estas unidades USB ya tienen de suyo firmware que las hace aparecer como unidades CD cuando se insertan en una computadora. Estas clases de unidades flash USB no se ven afectadas por los cambios en Windows 7. Autorun funcionará como si se tratase de un CD. Las U3 smart drives están básicamente orientadas para usarse para correr programas directamente de las unidades flash USB y generalmente no se utilizan para instalar programas. Si únicamente necesitas correr programas localmante y no necesitas instalar, una U3 smart drive puede ser una opción. Pero si necesitas instalar archivos o actualizar configuraciones en el sistema operativo (por ejemplo en el Registry) no puede usarse una U3 smart drive. La idea básica de la tecnología U3 es que cuando se remueva la unidad de la computadora huésped no deben quedar huellas en esa computadora.*
+ 
+*- Crea un de programa que busque memorias USB que estén insertadas en los puertos USB. Si es muy importante correr un programa automáticamente desde una memoria USB, puedes crear un programa que espere que aparezcan nuevas letras de unidad y si la nueva unidad es una unidad flash USB corres el programa de la unidad. El programa puede ser el especificado en el comando OPEN en el archivo Autorun.inf, u otro programa. Esta solución requiere por supuesto que el programa buscador esté primero instalado en la computadora, pero si tienes un programa que coopera con las memorias USB esto se puede hacer de manera natural durante la instalación del programa.*
+ 
+*- Utiliza un programa ya listo pra usarse o un componente que busque memorias USB en puertos USB. En vez de escribir un programa o componente (como se describió anteriormente) por ti mismo, puedes usar software de terceros que haga la misma cosa. Por ejemplo, nuestro producto SamLogic USB AutoRun Creator puede darle a AutoRun capacidades para el manejo de unidades flash USB que se utilizan en sistemas Windows 7. SamLogic USB AutoRun Creator funciona también con Windows XP y Windows Vista.*
+
+
+Mas informacion en este articulo: http://www.samlogic.net/articles-spanish/autorun-unidad-flash-usb-windows-7.htm
+
+Estos aparatos o dispositivos U3 smart se han desaparecido poco a poco, entonces me di la tarea de buscar alguna forma de hacer la USB como un U3 Smart y asi utilizar el autorun.inf para que lo dectectara como si fuera un CD 
