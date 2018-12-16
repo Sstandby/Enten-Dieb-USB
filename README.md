@@ -1,7 +1,9 @@
 
 
 # Enten-Dieb-USB
-![enter image description here](http://subirimagen.me/uploads/20181216101822.gif)
+<p align="center">
+<img src="http://subirimagen.me/uploads/20181216101822.gif">
+</p>
 
 Enten-Dieb-USB es una herramienta la cual crea .bat para robar informacion y pasar esa informacion por un servidor FTP, entre otras opciones para tener un control de la pc victima. 
  
@@ -41,7 +43,9 @@ Cuando se elije alguna de estas opciones el .bat se generara con el vbs para eje
 
 7. Salir del menú.
 
-![enter image description here](http://subirimagen.me/uploads/20181216111650.gif)
+<p align="center">
+<img src="http://subirimagen.me/uploads/20181216111650.gif">
+</p>
 
 -----
 
