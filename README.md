@@ -27,7 +27,7 @@ Enten-Dieb-USB es una herramienta la cual crea .bat para robar informacion y pas
 
  -----
  
-Cuando se elije alguna de estas opciones el .bat se generara con el vbs para ejecutarlo en segundo plano para que la victima no se de cuenta.
+Cuando se elije alguna de estas opciones el .bat se generara con el vbs para ejecutarlo en segundo plano para que la victima no se de cuenta. Pero, si no queremos usar el vbs puedes convertir el bat en exe. <a href=https://www.softzone.es/2017/09/16/como-convertir-archivos-bat-a-exe-en-windows/>Convertir BAT en EXE</a>
 
 1. En la primera opción se copiará el disco duro completo y será movido en la USB (Tener máximo +8GB)  
 
