@@ -40,3 +40,5 @@ Cuando se elije alguna de estas opciones el .bat se generara con el vbs para eje
 6. Genera un autorun si hace falta para la USB o CD (Solo se usa con la USB si utilizas el programa de U3) 
 
 7. Salir del menú.
+
+![enter image description here](http://subirimagen.me/uploads/20181216111650.gif)
