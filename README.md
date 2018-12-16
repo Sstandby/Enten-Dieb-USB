@@ -2,6 +2,10 @@
 
 # Enten-Dieb-USB
 
+<p align="center">
+<img src="http://orig05.deviantart.net/de12/f/2014/352/e/e/fade_out_by_valenberg-d8aagwj.gif">
+</p>
+
 Enten-Dieb-USB es una herramienta la cual crea .bat para robar informacion y pasar esa informacion por un servidor FTP, entre otras opciones para tener un control de la pc victima. 
  
  -----
