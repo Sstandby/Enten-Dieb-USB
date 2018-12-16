@@ -62,4 +62,4 @@ No existe una forma general para correr un programa automáticamente en una unid
 
 Mas informacion en este articulo: http://www.samlogic.net/articles-spanish/autorun-unidad-flash-usb-windows-7.htm
 
-Estos aparatos o dispositivos U3 smart se han desaparecido poco a poco, entonces me di la tarea de buscar alguna forma de hacer la USB como un U3 Smart y asi utilizar el autorun.inf para que lo dectectara como si fuera un CD 
+Estos aparatos o dispositivos U3 smart se han desaparecido poco a poco, entonces me di la tarea de buscar alguna forma de hacer la USB como un U3 Smart y asi utilizar el autorun.inf para que lo dectectara como si fuera un CD. 
